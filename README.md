@@ -56,13 +56,18 @@ fast processing of landmark coordinates.
 
 # Prerequisites:
 1.Python 3.12 or later installed.
+
 2.A webcam connected to your computer.
+
 3.Git installed (optional, for cloning).
 
 # Using the Application:
 1.Click Open Camera to start the webcam and gesture detection.
+
 2.Position your hand clearly in front of the webcam to perform gestures (Thumbs Up, Peace, Open Palm, Fist).
+
 3.The GUI displays the live video feed with hand landmarks, finger states, joint angles, and the detected gesture.
+
 4.Click Quit Camera to stop the webcam and close the application.
 
 
