@@ -1,8 +1,0 @@
-﻿HAND GESTURES RECOGNITION LIBRARIES
-
-
-1. OpenCV (cv2): For capturing and processing video frames from the webcam.
-2. MediaPipe (mediapipe): For hand landmark detection and drawing.
-3. Pillow (PIL): For converting video frames to Tkinter-compatible images.
-4. Tkinter (tkinter): For the GUI (built-in with Python, but we'll note it for clarity).
-5. NumPy: Implicitly required by OpenCV and MediaPipe for array operations.
