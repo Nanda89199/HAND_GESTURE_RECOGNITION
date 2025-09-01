@@ -25,22 +25,30 @@ fast processing of landmark coordinates.
 
 # Thumbs Up:
 1.Logic: The thumb is extended (up or sideways), while all other fingers (index, middle, ring, pinky) are folded down.
+
 2.Implementation: Check if the thumb tip is above the wrist or significantly offset horizontally. Verify thumb joint angles (IP and PIP) are large (>150°) to ensure extension. Confirm other fingers have small angles (<140°) and tips below their PIP joints to ensure they’re folded.
+
 3.Key Check: thumb_up=True, index/middle/ring/pinky=False, and total up_count=1.
 
 # Peace:
 1.Logic: Index and middle fingers are extended, while thumb, ring, and pinky are folded down.
+
 2.Implementation: Verify index and middle finger tips are above their PIP joints with large angles (>140°) at PIP and DIP joints. Ensure thumb, ring, and pinky have small angles (<120° for thumb, <140° for others) and tips below PIP joints.
+
 3.Key Check: index=True, middle=True, thumb/ring/pinky=False.
 
 # Open Palm:
 1.Logic: All five fingers (thumb, index, middle, ring, pinky) are extended.
+
 2.Implementation: Confirm all finger tips are above their PIP joints and have large angles (>140° for fingers, >150° for thumb). A partial match (4+ fingers up) also classifies as Open Palm to account for slight variations.
+
 3.Key Check: up_count=5 or up_count>=4.
 
 # Fist:
 1.Logic: All fingers are folded down, forming a closed hand.
+
 2.Implementation: Check that all finger tips are below their PIP joints and joint angles are small (<140° for fingers, <120° for thumb).
+
 3.Key Check: up_count=0.
 
 
