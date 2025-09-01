@@ -21,6 +21,9 @@ Used for the GUI due to its simplicity and native integration with Python, allow
 Essential for numerical computations, such as angle calculations and array operations, required by OpenCV and MediaPipe. Its efficiency in handling arrays ensures
 fast processing of landmark coordinates.
 
+These technologies were chosen for their synergy, open-source availability, and proven reliability in real-time computer vision tasks. MediaPipe’s hand tracking model, combined with OpenCV’s video processing and Tkinter’s GUI, provides a complete solution that balances accuracy, performance, and ease of use.
+
+
 # Gesture Logic Explanation:
 
 # Thumbs Up:
@@ -69,27 +72,3 @@ fast processing of landmark coordinates.
 3.The GUI displays the live video feed with hand landmarks, finger states, joint angles, and the detected gesture.
 
 4.Click Quit Camera to stop the webcam and close the application.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-These technologies were chosen for their synergy, open-source availability, and proven reliability in real-time computer vision tasks. MediaPipe’s hand tracking model, combined with OpenCV’s video processing and Tkinter’s GUI, provides a complete solution that balances accuracy, performance, and ease of use.
